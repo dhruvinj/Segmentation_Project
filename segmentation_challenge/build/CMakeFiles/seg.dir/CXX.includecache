@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/mask_generator.hpp
+types.hpp
+../include/types.hpp
+functional
+-
+
+../include/mask_image.hpp
+types.hpp
+../include/types.hpp
+mask_generator.hpp
+../include/mask_generator.hpp
+random
+-
+
+../include/types.hpp
+blaze/math/StaticMatrix.h
+-
+blaze/math/DynamicMatrix.h
+-
+
+/home/dhruvin1991/Desktop/Dhruvin_Projects/Projects/Segmentation/segmentation_challenge/src/main.cpp
+types.hpp
+/home/dhruvin1991/Desktop/Dhruvin_Projects/Projects/Segmentation/segmentation_challenge/src/types.hpp
+mask_generator.hpp
+/home/dhruvin1991/Desktop/Dhruvin_Projects/Projects/Segmentation/segmentation_challenge/src/mask_generator.hpp
+mask_image.hpp
+/home/dhruvin1991/Desktop/Dhruvin_Projects/Projects/Segmentation/segmentation_challenge/src/mask_image.hpp
+boost/filesystem/path.hpp
+-
+
+/home/dhruvin1991/Desktop/Dhruvin_Projects/Projects/Segmentation/segmentation_challenge/src/write_png.cpp
+types.hpp
+/home/dhruvin1991/Desktop/Dhruvin_Projects/Projects/Segmentation/segmentation_challenge/src/types.hpp
+png.h
+-
+boost/filesystem/path.hpp
+-
+
